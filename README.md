@@ -27,7 +27,7 @@ IP spoofing is the creation of Internet Protocol packets with a false source IP 
 
 <p align="center">
 Open Network and Sharing Center: <br/>
-<img src="https://imgur.com/a/72X7z7h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ynIaEQU.png" height="80%" width="80%" alt="hello this is reed"/>
 <br />
 <br />
 Click Set up a new connection or network link:  <br/>
