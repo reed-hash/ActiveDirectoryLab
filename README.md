@@ -61,75 +61,72 @@ Honeypots are decoy systems designed to attract and analyze malicious activities
 
 <p align="center">
 Open Terminal: <br/>
-<img src="" height="80%" width="80%" alt="hello this is reed"/>
 <br />
 <br />
 <p align="center">
 Open Run command ipconfig  
 - Write down the Io int IP address: <br/>
-<img src="" height="80%" width="80%" alt="hello this is reed"/>
+<img src="https://i.imgur.com/YTeuzuN.png" height="80%" width="80%" alt="hello this is reed"/>
 <br />
 <br />
 Run command cd pentbox-1.8/  <br/>
-<img src="" height="80%" width="80%" alt="hello this is reed"/>
+<img src="https://i.imgur.com/tcRPAua.png" height="80%" width="80%" alt="hello this is reed"/>
 <br />
 <br />
 Run command ./pentbox.rb <br/>
-<img src="" height="80%" width="80%" alt="hello this is reed"/>
+<img src="https://i.imgur.com/tcRPAua.png" height="80%" width="80%" alt="hello this is reed"/>
 <br />
 <br />
 <p align="center">
 In Terminal type 2 and enter to select network tool option: <br/>
-<img src="" height="80%" width="80%" alt="hello this is reed"/>
+<img src="https://i.imgur.com/bod0a6Q.png" height="80%" width="80%" alt="hello this is reed"/>
 <br />
 <br />
 In Terminal type 3 and enter to select Honeypot option:  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OTTyoLj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 In Terminal type 2 and enter to select manual config option: <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OTTyoLj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 In Terminal type 443 and enter to select to open port:  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OTTyoLj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 In Terminal "Caught You!!” and enter to enter false message:  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OTTyoLj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 In Terminal type y and enter twice to save log:  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OTTyoLj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 In Terminal type n and enter to deactivate beep sound:  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/h8wEAYB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 You will see that the honeypot is on port 443: <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QcBRLg6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 In Terminal type 443 and enter to select to open port:  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Open Firefox and type http:// the IP address from earlier:  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UPnmfCn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 In this window you will see secure connection failed:  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UPnmfCn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 In the terminal, you will see a message of Intrusion Attempt Detection:  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZfdqeKZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Press Ctrl+C to stop:  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 
  <h2>IP Spoofing:</h2>
 IP spoofing is the creation of Internet Protocol packets with a false source IP address. This is used to impersonate another computer. Implementing ingress and egress filtering at network boundaries helps in detecting and blocking spoofed IP packets, ensuring legitimate packet flow. Utilizing strong authentication methods, like multi-factor authentication (MFA), prevents unauthorized access and reduces the risk of IP spoofing attempts. Frequent audits and active monitoring of network traffic help in identifying abnormal patterns and potential IP spoofing activities, allowing for timely mitigation. 
@@ -138,20 +135,19 @@ IP spoofing is the creation of Internet Protocol packets with a false source IP 
 
 <p align="center">
 Open Wireshark and select the Ethernet0 and start capturing packets: <br/>
-<img src="" height="80%" width="80%" alt="hello this is reed"/>
+<img src="https://i.imgur.com/hjbLLjO.png" height="80%" width="80%" alt="hello this is reed"/>
 <br />
 <br />
 <p align="center">
 Open PuTTY terminal in the configuration dialog box in the Host Name type 192.168.1.130 and open: <br/>
-<img src="" height="80%" width="80%" alt="hello this is reed"/>
+<img src="https://i.imgur.com/Zs2uQaR.png" height="80%" width="80%" alt="hello this is reed"/>
 <br />
 <br />
 Click yes to PuTTY Security Alert prompt:  <br/>
-<img src="" height="80%" width="80%" alt="hello this is reed"/>
 <br />
 <br />
 Login in to the PuTTY Security Alert Prompt <br/>
-<img src="" height="80%" width="80%" alt="hello this is reed"/>
+<img src="https://i.imgur.com/wORl91u.png" height="80%" width="80%" alt="hello this is reed"/>
 <br />
 <br />
 <p align="center">
@@ -159,23 +155,23 @@ In the terminal execute these commands separately
    - nmap -iflist 
    - nmap -e ens192 -S 192.168.1.1 192.168.1.250 
 Nmap is used by ethical hackers to reform vital scans: <br/>
-<img src="" height="80%" width="80%" alt="hello this is reed"/>
+<img src="https://imgur.com/a/KhkFBWK" height="80%" width="80%" alt="hello this is reed"/>
 <br />
 <br />
 In Wireshark stop capturing packets:  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4dzH6r2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 In the display filter box type arp and click the arrow icon: <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4dzH6r2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Look at the information section for Destination as Broadcast:  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4dzH6r2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 In the menu bar click the file and save and save as ip_spoof:  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/eMp8W9p.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 
